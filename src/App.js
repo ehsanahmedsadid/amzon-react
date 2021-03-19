@@ -1,27 +1,17 @@
-import leg from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./Header.js";
+import Home from "./Home.js"
 
 function App() {
   return (
+    // BEM
     <div className="App">
-      <header className="App-header">
-        <img src={leg} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <p>okay this injected by Ehsan 😻</p>
-        <p>again ehsan🤭 </p>
-        <em>yweeeeeeeeeeeeee</em>
-        <i>a diffrent yweeeeeeeeeeeeee</i>
-      </header>
+      <Header />
+      <Home />
+      <p>
+        Now, taken over by EHSAN🤴<br></br> @ehsanahmedsadid
+      </p>
+      {/* */}
     </div>
   );
 }
